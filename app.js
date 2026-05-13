@@ -34,9 +34,7 @@ const showWinner = ((userWinner, userChoice, compChoice) => {
 
 
 const playGame = ((userChoice) => {
-    console.log(`user choice ${userChoice}`);
     let compChoice = genCompChoice()
-    console.log(`computer choice ${compChoice}`);
 
     if (userChoice === compChoice) {
         drawGame()
